@@ -8,7 +8,7 @@ You need to have `node`and `npm`installed in your computer.
 
 ## Getting started:
 
-Just clone this [repository](https://github.com/leanjscom/thinking-in-react.git) and run `npm start`
+`git clone git@github.com:leanjscom/thinking-in-react.git && cd thinking-in-react && yarn install && yarn start`
 
 ## License
 
