@@ -5,7 +5,7 @@ const Header = (props) => (
       <div className="container">
           <div className="row">
               <div className="col-lg-12">
-                  <img className="img-responsive logo-academy" src="/public/img/logo.png" />
+                  <img className="img-responsive logo-academy" src="/public/img/leanjs.logo.svg" />
                   <div className="intro-text">
                       <span className="name">{props.title}</span>
                       <hr className="star-light" />

@@ -1,21 +1,21 @@
 {
-  "name": "react-library",
+  "name": "thinking-in-react",
   "version": "1.0.0",
-  "description": "ReactJS Fundamentals - Library Example",
+  "description": "Thinking in React - exercise",
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/.bin/babel-node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reactjs-academy/library.git"
+    "url": "git+https://github.com/leanjscom/thinking-in-react.git"
   },
-  "author": "ReactJS Academy",
+  "author": "LeanJS",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/reactjs-academy/library/issues"
+    "url": "https://github.com/leanjscom/thinking-in-react/issues"
   },
-  "homepage": "https://github.com/reactjs-academy/library#readme",
+  "homepage": "https://github.com/leanjscom/thinking-in-react#readme",
   "dependencies": {
     "react": "^15.4.1",
     "react-burger-menu": "^1.10.10",
