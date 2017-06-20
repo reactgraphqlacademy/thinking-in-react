@@ -1,6 +1,6 @@
 ## ReactJS Fundamentals - Thinking in React
 
-The goal of this exercise is to learn how to think in React. There are thousands of tutorials online but there's no better way to learn than hacking it yourself.
+The goal of this exercise is to learn how to think in React.
 
 ## Requirements
 You need to be comfortable writing JavaScript (ES6: Module system, class, destructuring assignment).
