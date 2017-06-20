@@ -59,7 +59,7 @@ hr.star-light:after {
 }
 
 header hr.star-light:after {
-  background-color: #774EBD;
+  background-color: #61dafb;
   color: white;
 }
 
@@ -79,7 +79,7 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #774EBD;
+  background: #61dafb;
   color: white;
 }
 header .container {

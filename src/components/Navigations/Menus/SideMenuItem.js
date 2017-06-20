@@ -1,8 +1,8 @@
 import React from 'react'
 
-const SideMenuItem = ({ children, toggleMenu, link }) => (
+const SideMenuItem = ({ children, link }) => (
   <p>
-    <a href={ link } target="_blank" rel="noopener noreferrer" style={{ cursor: 'pointer' }} onClick={ () => toggleMenu() }>
+    <a href={ link } target="_blank" rel="noopener noreferrer" style={{ cursor: 'pointer' }}>
       { children }
     </a>
   </p>

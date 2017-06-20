@@ -9,7 +9,7 @@ const Menu = ({ isOpen, pageWrapId, toggleMenu}) => (
      toggleMenu={ toggleMenu }
   >
     <h4>
-      Next Courses
+      Next Courses <a onClick={() => toggleMenu() } style={{ cursor: 'pointer' }}><i className="fa fa-close pull-right"></i></a>
     </h4>
     <SideMenuItem link="https://leanjs.com/training/react-redux-graphql-london">London</SideMenuItem>
     <SideMenuItem link="https://leanjs.com/training/react-redux-graphql-london#redux-training-day">Redux Day</SideMenuItem>
