@@ -3,7 +3,7 @@
 The goal of this exercise is to learn how to think in React.
 
 ## Requirements
-You need to be comfortable writing JavaScript (ES6: Module system, class, destructuring assignment).
+You need to be comfortable writing JavaScript (ES6: Module system, class syntax, destructuring assignment).
 You need to have `node`and `npm`installed in your computer.
 
 ## Getting started:
