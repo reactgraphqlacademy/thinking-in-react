@@ -89,7 +89,7 @@ class App extends React.Component {
               { books.map( book => (
                 <div className="col-xs-6 col-sm-3" key={ book.title }>
                   <div className="thumbnail">
-                    <img className="img-responsive" src={ book.cover }/>
+                    <img alt="" className="img-responsive" src={ book.cover }/>
                   </div>
                 </div>
               )) }
@@ -113,7 +113,7 @@ class App extends React.Component {
                         <p>This ReactJS web site works, but it's not well implemented. The problem, the developer didn't think in React and there aren't many components. We challenge you to fork the repo an componentizise the app to unleash the power of ReactJS.</p>
                     </div>
                     <div className="col-lg-8 col-lg-offset-2 text-center">
-                        <a target="_blank" href="https://github.com/leanjscom/thinking-in-react" className="btn btn-lg btn-outline">
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/leanjscom/thinking-in-react" className="btn btn-lg btn-outline">
                             <i className="fa fa-code-fork"></i> Fork me on Github
                         </a>
                     </div>
@@ -137,13 +137,13 @@ class App extends React.Component {
                             <h3>Around the Web</h3>
                             <ul className="list-inline">
                                 <li>
-                                    <a target="_blank" href="https://github.com/leanjscom" className="btn-social btn-outline"><i className="fa fa-fw fa-github"></i></a>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/leanjscom" className="btn-social btn-outline"><i className="fa fa-fw fa-github"></i></a>
                                 </li>
                                 <li>
-                                    <a target="_blank" href="https://twitter.com/leanjscom" className="btn-social btn-outline"><i className="fa fa-fw fa-twitter"></i></a>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/leanjscom" className="btn-social btn-outline"><i className="fa fa-fw fa-twitter"></i></a>
                                 </li>
                                 <li>
-                                    <a target="_blank" href="https://www.instagram.com/leanjscom/" className="btn-social btn-outline"><i className="fa fa-fw fa-instagram"></i></a>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/leanjscom/" className="btn-social btn-outline"><i className="fa fa-fw fa-instagram"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -163,7 +163,7 @@ class App extends React.Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <span>Copyright &copy;</span> <a href="https://leanjs.com/" target="_blank">LeanJS</a>
+                            <span>Copyright &copy;</span> <a href="https://leanjs.com/" target="_blank" rel="noopener noreferrer">LeanJS</a>
                         </div>
                     </div>
                 </div>

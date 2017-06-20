@@ -1,4 +1,4 @@
-const images = 'public/img/books'
+const images = '/img/books'
 
 const books = [
   { title: 'Learning React', cover: `${images}/learning-react.jpg`, category: 'Web' },
