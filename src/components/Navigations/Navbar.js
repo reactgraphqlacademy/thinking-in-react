@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 const Navbar = ({ toggleMenu }) => (
   <nav className="navbar navbar-default navbar-fixed-top navbar-custom">
@@ -21,7 +22,7 @@ const Navbar = ({ toggleMenu }) => (
 )
 
 Navbar.propTypes = {
-  toggleMenu: React.PropTypes.func
+  toggleMenu: PropTypes.func.isRequired
 }
 
 export default Navbar

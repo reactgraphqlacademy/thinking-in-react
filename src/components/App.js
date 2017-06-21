@@ -7,9 +7,6 @@ import Footer from './Footer'
 import About from './About'
 import Books from './Books'
 
-import filters from '../mocks/filters'
-import books from '../mocks/books'
-
 class App extends React.Component {
   constructor () {
     super()
@@ -28,21 +25,15 @@ class App extends React.Component {
 
     return (
       <div id="page-wrap">
-
         <Menu
           pageWrapId="page-wrap"
           isOpen={ menu.open }
           toggleMenu={ this.toggleMenu }
         />
-
         <Navbar toggleMenu={this.toggleMenu} />
-
         <Header title="Library" />
-
         <Books />
-
         <About />
-
         <Footer />
       </div>
     )
