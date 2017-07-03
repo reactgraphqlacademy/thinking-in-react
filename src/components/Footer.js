@@ -1,4 +1,5 @@
 import React from 'react'
+import SocialButton from './Buttons/SocialButton'
 
 const Footer = () => (
   <footer className="text-center">
@@ -20,13 +21,13 @@ const Footer = () => (
             <h3>Around the Web</h3>
             <ul className="list-inline">
               <li>
-                <a target="_blank" href="https://github.com/reactjs-academy" className="btn-social btn-outline"><i className="fa fa-fw fa-github"></i></a>
+                <SocialButton to="https://github.com//leanjscom" icon="github" />
               </li>
               <li>
-                <a target="_blank" href="https://twitter.com/reactjsacademy" className="btn-social btn-outline"><i className="fa fa-fw fa-twitter"></i></a>
+                <SocialButton to="https://twitter.com/leanjscom" icon="twitter" />
               </li>
               <li>
-                <a target="_blank" href="https://www.instagram.com/reactjsacademy/" className="btn-social btn-outline"><i className="fa fa-fw fa-instagram"></i></a>
+                <SocialButton to="https://www.instagram.com/leanjscom" icon="instagram" />
               </li>
             </ul>
           </div>
@@ -35,8 +36,8 @@ const Footer = () => (
             <p>
               <a href="https://reactjs.academy/">ReactJS Academy </a>
               <span>
-                                is devoted to teach React across Europe, providing free workshops and private trainings.
-                              </span>
+                is devoted to teach React across Europe, providing free workshops and private trainings.
+              </span>
             </p>
           </div>
         </div>

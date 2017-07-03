@@ -17,8 +17,8 @@ const About = () => (
           <p>This ReactJS web site works, but it's not well implemented. The problem, the developer didn't think in React and there aren't many components. We challenge you to fork the repo an componentizise the app to unleash the power of ReactJS.</p>
         </div>
         <div className="col-lg-8 col-lg-offset-2 text-center">
-          <a target="_blank" href="https://github.com/reactjs-academy/library" className="btn btn-lg btn-outline">
-            <i className="fa fa-code-fork"></i> Fork me on Github
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/leanjscom/thinking-in-react" className="btn btn-lg btn-outline">
+             <i className="fa fa-code-fork"></i> Fork me on Github
           </a>
         </div>
       </div>
