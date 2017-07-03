@@ -24,10 +24,9 @@ class App extends React.Component {
 
   selectTab ( category ) {
     this.setState({
-      filters: filters.map(filter => {
-        filter.selected = filter.category === category
-        return filter
-      }),
+      filters: filters.map(filter => ({
+        ...filter, selected: filter.category === category
+      })),
       books: category === 'All'? books : books.filter( book => (book.category === category) ),
     })
   }
