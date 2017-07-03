@@ -14,7 +14,7 @@ const Footer = () => (
               <span>London, EC2Y 5EJ</span>
               <br />
               <span className="fa fa-map-marker"></span>
-              <a target="_blank" href="https://reactjs.academy/react-redux-training"> Other Locations </a>
+              <a target="_blank" href="https://leanjs.com/training/react-redux-graphql-london"> Other Locations </a>
             </p>
           </div>
           <div className="footer-col col-md-4">
@@ -32,11 +32,11 @@ const Footer = () => (
             </ul>
           </div>
           <div className="footer-col col-md-4">
-            <h3>About ReactJS Academy</h3>
+            <h3>About LeanJS</h3>
             <p>
-              <a href="https://reactjs.academy/">ReactJS Academy </a>
+              <a href="https://leanjs.com/">LeanJS </a>
               <span>
-                is devoted to teach React across Europe, providing free workshops and private trainings.
+                is a boutique of excellence focused on Lean, JavaScript, UX, Agile, and people.
               </span>
             </p>
           </div>
@@ -47,7 +47,7 @@ const Footer = () => (
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <span>Copyright &copy;</span> <a href="https://reactjs.academy/" target="_blank">ReactJS Academy</a>
+            <span>Copyright &copy;</span> <a href="https://leanjs.com/" target="_blank">LeanJS</a>
           </div>
         </div>
       </div>

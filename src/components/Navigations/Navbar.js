@@ -5,7 +5,7 @@ const Navbar = ({ toggleMenu }) => (
   <nav className="navbar navbar-default navbar-fixed-top navbar-custom">
     <div className="container">
       <div className="navbar-header">
-        <a className="navbar-brand" href="#page-top">ReactJS Academy</a>
+        <a className="navbar-brand" href="#page-top">LeanJS</a>
       </div>
       <ul className="nav navbar-nav pull-right">
         <li className="hidden-xs">
