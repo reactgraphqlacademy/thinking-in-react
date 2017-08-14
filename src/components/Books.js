@@ -5,14 +5,13 @@ import books from '../mocks/books'
 class Books extends React.Component {
   constructor () {
     super()
-    this.selectTab = this.selectTab.bind(this)
     this.state = {
       books,
       filters
     }
   }
 
-  selectTab ( category ) {
+  selectTab = ( category ) => {
     this.setState({
       filters: filters.map(filter => {
         filter.selected = filter.category === category

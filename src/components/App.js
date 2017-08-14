@@ -14,11 +14,10 @@ class App extends React.Component {
       menu: { open : false }
     }
   }
-  
- toggleMenu = () => (
-   this.setState({ menu : { open: !this.state.menu.open } })
- )
 
+ toggleMenu = () => {
+   this.setState({ menu : { open: !this.state.menu.open } })
+ }
 
 
   render() {
