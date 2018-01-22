@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^15.6.1",
-    "react-burger-menu": "^2.1.1",
-    "react-dom": "^15.6.1"
+    "react": "^16.2.0",
+    "react-burger-menu": "^2.2.3",
+    "react-dom": "^16.2.0"
   },
   "devDependencies": {
-    "react-scripts": "1.0.7"
+    "react-scripts": "^1.1.0"
   },
   "scripts": {
     "start": "react-scripts start",

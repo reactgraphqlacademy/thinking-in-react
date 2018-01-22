@@ -9,9 +9,9 @@ const Footer = () => (
           <div className="footer-col col-md-4">
             <h3>Main Location</h3>
             <p>
-              <span>1 Fore Stree</span>
+              <span>1 St. Katharine's Way</span>
               <br />
-              <span>London, EC2Y 5EJ</span>
+              <span>London, E1W 1UN</span>
               <br />
               <span className="fa fa-map-marker"></span>
               <a target="_blank" href="https://leanjs.com/training/react-redux-graphql-london"> Other Locations </a>
