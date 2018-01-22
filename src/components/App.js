@@ -2,41 +2,42 @@ import React from 'react'
 
 import Menu from './Navigations/Menu'
 import Header from './Header'
-
-import filters from '../mocks/filters'
 import books from '../mocks/books'
 
 class App extends React.Component {
   constructor () {
     super()
-    this.selectTab = this.selectTab.bind(this)
-    this.toggleMenu = this.toggleMenu.bind(this)
     this.state = {
-      books,
-      filters,
+      books: books,
+      selectedFilter: 'All',
       menu: { open : false }
     }
   }
 
-  toggleMenu () {
+  toggleMenu = () => {
     this.setState({ menu : { open: !this.state.menu.open } })
   }
 
-  selectTab ( category ) {
+  selectFilter = ( filter ) => {
     this.setState({
-      filters: filters.map(filter => ({
-        ...filter, selected: filter.category === category
-      })),
-      books: category === 'All'? books : books.filter( book => (book.category === category) ),
+      selectedFilter: filter,
+      books: filter === 'All'? books : books.filter( book => (book.category === filter) )
     })
   }
 
   render() {
-    const { books, filters, menu } = this.state
+    const { books, menu, selectedFilter } = this.state
+    const filters = [
+      'All',
+      'Web',
+      'Mobile',
+      'DevOps',
+      'Essentials',
+    ]
 
     const tabItems = filters.map(filter => (
-      <li className={ filter.selected? 'active': '' } key={ filter.category } onClick={ this.selectTab.bind(null, filter.category) }>
-        <a href="#0">{ filter.category }</a>
+      <li className={ filter === selectedFilter ? 'active': '' } key={ filter } onClick={() => this.selectFilter(filter) }>
+        <a href="#0">{ filter }</a>
       </li>
     ))
 
@@ -86,7 +87,7 @@ class App extends React.Component {
             </div>
             <div className="row book-list">
               { books.map( book => (
-                <div className="col-xs-6 col-sm-3" key={ book.title }>
+                <div className="col-xs-6 col-sm-3" key={ book.id }>
                   <div className="thumbnail">
                     <img alt="" className="img-responsive" src={ book.cover }/>
                   </div>
