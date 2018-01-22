@@ -127,9 +127,9 @@ class App extends React.Component {
                         <div className="footer-col col-md-4">
                             <h3>Main Location</h3>
                             <p>
-                              <span>1 Fore Stree</span>
+                              <span>1 St. Katharine's Way</span>
                               <br />
-                              <span>London, EC2Y 5EJ</span>
+                              <span>London, E1W 1UN</span>
                             </p>
                         </div>
                         <div className="footer-col col-md-4">
