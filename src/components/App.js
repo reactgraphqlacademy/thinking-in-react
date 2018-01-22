@@ -10,13 +10,12 @@ import Books from './Books'
 class App extends React.Component {
   constructor () {
     super()
-    this.toggleMenu = this.toggleMenu.bind(this)
     this.state = {
       menu: { open : false }
     }
   }
 
-  toggleMenu () {
+  toggleMenu = () => {
     this.setState({ menu : { open: !this.state.menu.open } })
   }
 
