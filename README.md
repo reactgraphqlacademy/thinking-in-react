@@ -25,7 +25,7 @@ Before you start, there are two types of components [Functional Components and C
 3- Refactor the books section by creating a stateless component and pass the dependencies via props. Make sure everything works.
 
 
-4- Is there any state in app that should be in the Books component?  Refactor &lt;Books&gt; books if appropriate. Should &lt;Books&gt; be a stateless component or a class now?
+4- Is there any state in app that should be in the Books component?  Refactor &lt;Books&gt; books if appropriate. Should &lt;Books&gt; be a Functional Component or a Class Component now?
 
 
 5- Break &lt;Books&gt; down into  &lt;BookList&gt; and &lt;BookFilter&gt;
