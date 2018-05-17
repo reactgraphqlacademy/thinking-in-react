@@ -33,6 +33,10 @@ Before you start, there are two types of components [Functional Components and C
 
 6- What do you think it would make sense to componentize next? Are there any parts on that view that you can reuse? Try to explain to a mentor what you want to refactor before you code :)
 
+### Links
+
+(https://reactjs.org/docs/introducing-jsx.html)[https://reactjs.org/docs/introducing-jsx.html]
+(https://reactjs.org/docs/thinking-in-react.html)[https://reactjs.org/docs/thinking-in-react.html]
 
 ## License
 
