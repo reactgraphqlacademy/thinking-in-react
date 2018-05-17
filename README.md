@@ -35,8 +35,8 @@ Before you start, there are two types of components [Functional Components and C
 
 ### Links
 
-(https://reactjs.org/docs/introducing-jsx.html)[https://reactjs.org/docs/introducing-jsx.html]
-(https://reactjs.org/docs/thinking-in-react.html)[https://reactjs.org/docs/thinking-in-react.html]
+[https://reactjs.org/docs/introducing-jsx.html](https://reactjs.org/docs/introducing-jsx.html)
+[https://reactjs.org/docs/thinking-in-react.html](https://reactjs.org/docs/thinking-in-react.html)
 
 ## License
 
