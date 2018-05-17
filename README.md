@@ -12,7 +12,7 @@ You need to have `node`and `npm`installed in your computer.
 
 ## Exercise
 
-Before you start, there are two types of components [Functional Components and Class Comonents](https://reactjs.org/docs/components-and-props.html#functional-and-class-components).  Use a Functional component if your component doesn't have state.
+Before you start, there are two types of components [Functional Components and Class Comonents](https://reactjs.org/docs/components-and-props.html#functional-and-class-components).  Try to use a Functional component if your component doesn't have state.
 
 ### Tasks
 
