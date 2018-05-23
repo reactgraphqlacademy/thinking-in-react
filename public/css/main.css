@@ -18,7 +18,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #774EBD;
+  color: #61dafb;
   outline: none;
 }
 h1,
@@ -79,7 +79,7 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #61dafb;
+  background: #292C34;
   color: white;
 }
 header .container {
@@ -425,7 +425,7 @@ fieldset[disabled] .btn-success.active {
 }
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
-  background-color: #774EBD;
+  background-color: #61dafb;
 }
 
 

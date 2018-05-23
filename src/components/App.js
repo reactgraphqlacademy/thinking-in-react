@@ -53,7 +53,7 @@ class App extends React.Component {
         <nav className="navbar navbar-default navbar-fixed-top navbar-custom">
             <div className="container">
                 <div className="navbar-header">
-                    <a className="navbar-brand">LeanJS</a>
+                    <a className="navbar-brand">ReactJS Academy</a>
                 </div>
                 <ul className="nav navbar-nav pull-right">
                     <li className="hidden-xs">
@@ -148,11 +148,11 @@ class App extends React.Component {
                             </ul>
                         </div>
                         <div className="footer-col col-md-4">
-                            <h3>About LeanJS</h3>
+                            <h3>About ReactJS Academy</h3>
                             <p>
-                              <a href="https://leanjs.com/">LeanJS </a>
+                              <a href="https://reactjs.academy/">ReactJS Academy</a>
                               <span>
-                                is a boutique of excellence focused on Lean, JavaScript, UX, Agile, and people.
+                                ReactJS Academy is Europes longest running dedicated React, Redux, and GraphQL training.
                               </span>
                             </p>
                         </div>
