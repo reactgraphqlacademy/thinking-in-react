@@ -35,6 +35,7 @@ Before you start, there are two types of components [Functional Components and C
 
 ### Links
 
+* [https://medium.com/leanjs/introduction-to-react-3000e9cbcd26](https://medium.com/leanjs/introduction-to-react-3000e9cbcd26)
 * [https://reactjs.org/docs/introducing-jsx.html](https://reactjs.org/docs/introducing-jsx.html)
 * [https://reactjs.org/docs/thinking-in-react.html](https://reactjs.org/docs/thinking-in-react.html)
 * [babel repl example](https://babeljs.io/repl/#?babili=false&browsers=&build=&builtIns=false&code_lz=MYewdgzgLgBAEgUwDZJAYRAWwA7gWWAXhgAoBKGQgPlICgYYAeAEwEsA3K-hpgCwEYqiFCACEjAPQCuPJtioB1ZKEwIYUEEwCGMXgCcEAM0IAiXlCjYIALgkSDW4FABWEAHSOtzBJgCeJqgAlBEcoACkAZTcAQWAvH19JLSpJeW5JNk5aMgBuWloWDhhgJC0ICAA5LVVTUAItVjAEPQD0zOLS8qqakz0QAHdW2QBvYVQMHDwCAF90iUyuDI4qIA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=true&fileSize=false&lineWrap=false&presets=es2015%2Creact%2Cstage-2&prettier=false&targets=&version=6.26.0&envVersion=)
