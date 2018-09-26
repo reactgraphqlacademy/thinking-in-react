@@ -1,13 +1,13 @@
 import React from 'react'
 import * as BurgerMenu from 'react-burger-menu'
 
-const SideMenu = ({ isOpen, children, pageWrapId }) => (
+const SideMenu = (props) => (
   <div>
     <BurgerMenu.slide
-       isOpen={ isOpen }
-       pageWrapId={ pageWrapId || 'page-wrap' }
+      isOpen={props.isOpen}
+      pageWrapId={props.pageWrapId || 'page-wrap'}
     >
-      { children }
+      {props.children}
     </BurgerMenu.slide>
   </div>
 )
