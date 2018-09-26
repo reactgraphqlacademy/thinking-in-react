@@ -26,7 +26,6 @@ class App extends React.Component {
     }
 
     render() {
-        //const { books, menu, selectedFilter } = this.state
         const filters = [
             'All',
             'Web',
