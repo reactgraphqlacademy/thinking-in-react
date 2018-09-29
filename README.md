@@ -2,9 +2,19 @@
 
 The goal of this exercise is to learn how to think in React.
 
-## Requirements
-You need to be comfortable writing JavaScript (ES6: Module system, class syntax, destructuring assignment).
+## Prerequisites
+You need to be comfortable writing JavaScript and HTML to do this exercise. The exercise uses the following ES6 & ES5 features:
+- Module system ([import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)/ [export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export))
+- [Class syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) (extends, constructor)
+- [Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+- [Array.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) and [Array.filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+
 You need to have `node`and `npm`installed in your computer.
+
+### If you find this exercise too difficult
+
+If you find the exercise too difficult we recommend you to do the following basic React course from [freeCodeCamp](
+https://learn.freecodecamp.org/front-end-libraries/react/) before.
 
 ## Getting started:
 
@@ -36,6 +46,8 @@ Before you start, there are two types of components [Functional Components and C
 ### Links
 
 * [https://medium.com/leanjs/introduction-to-react-3000e9cbcd26](https://medium.com/leanjs/introduction-to-react-3000e9cbcd26)
+* Basic React course from [freeCodeCamp](
+https://learn.freecodecamp.org/front-end-libraries/react/)
 * [https://reactjs.org/docs/introducing-jsx.html](https://reactjs.org/docs/introducing-jsx.html)
 * [https://reactjs.org/docs/thinking-in-react.html](https://reactjs.org/docs/thinking-in-react.html)
 * [babel repl example](https://babeljs.io/repl/#?babili=false&browsers=&build=&builtIns=false&code_lz=MYewdgzgLgBAEgUwDZJAYRAWwA7gWWAXhgAoBKGQgPlICgYYAeAEwEsA3K-hpgCwEYqiFCACEjAPQCuPJtioB1ZKEwIYUEEwCGMXgCcEAM0IAiXlCjYIALgkSDW4FABWEAHSOtzBJgCeJqgAlBEcoACkAZTcAQWAvH19JLSpJeW5JNk5aMgBuWloWDhhgJC0ICAA5LVVTUAItVjAEPQD0zOLS8qqakz0QAHdW2QBvYVQMHDwCAF90iUyuDI4qIA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=true&fileSize=false&lineWrap=false&presets=es2015%2Creact%2Cstage-2&prettier=false&targets=&version=6.26.0&envVersion=)
