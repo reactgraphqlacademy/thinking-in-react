@@ -8,26 +8,24 @@ import About from './About'
 import Books from './Books'
 
 class App extends React.Component {
-  constructor () {
+  constructor() {
     super()
     this.state = {
-      menu: { open : false }
+      menu: { open: false }
     }
   }
 
   toggleMenu = () => {
-    this.setState({ menu : { open: !this.state.menu.open } })
+    this.setState({ menu: { open: !this.state.menu.open } })
   }
 
   render() {
-    const { menu } = this.state
-
     return (
       <div id="page-wrap">
         <Menu
           pageWrapId="page-wrap"
-          isOpen={ menu.open }
-          toggleMenu={ this.toggleMenu }
+          isOpen={this.state.menu.open}
+          toggleMenu={this.toggleMenu}
         />
         <Navbar toggleMenu={this.toggleMenu} />
         <Header title="Library" />

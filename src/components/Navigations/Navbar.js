@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Navbar = ({ toggleMenu }) => (
+const Navbar = (props) => (
   <nav className="navbar navbar-default navbar-fixed-top navbar-custom">
     <div className="container">
       <div className="navbar-header">
@@ -12,7 +12,7 @@ const Navbar = ({ toggleMenu }) => (
           <a href="#about">About the library</a>
         </li>
         <li>
-          <button onClick={ toggleMenu } className="btn btn-lg btn-outline">
+          <button onClick={props.toggleMenu} className="btn btn-lg btn-outline">
             <i className="fa fa-graduation-cap"></i> <span>Training</span>
           </button>
         </li>

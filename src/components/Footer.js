@@ -14,7 +14,7 @@ const Footer = () => (
               <span>London, E1W 1UN</span>
               <br />
               <span className="fa fa-map-marker"></span>
-              <a target="_blank" href="https://leanjs.com/training/react-redux-graphql-london"> Other Locations </a>
+              <a target="_blank" href="https://leanjs.com/training/react-redux-graphql-london" rel="noopener noreferrer"> Other Locations </a>
             </p>
           </div>
           <div className="footer-col col-md-4">
@@ -47,7 +47,7 @@ const Footer = () => (
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <span>Copyright &copy;</span> <a href="https://leanjs.com/" target="_blank">LeanJS</a>
+            <span>Copyright &copy;</span> <a href="https://leanjs.com/" target="_blank" rel="noopener noreferrer">LeanJS</a>
           </div>
         </div>
       </div>

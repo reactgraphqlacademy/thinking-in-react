@@ -4,7 +4,7 @@ import BookList from './BookList'
 import BookFilter from './BookFilter'
 
 class Books extends React.Component {
-  constructor () {
+  constructor() {
     super()
     this.state = {
       books,
@@ -12,31 +12,29 @@ class Books extends React.Component {
     }
   }
 
-  selectFilter = ( filter ) => {
+  selectFilter = (filter) => {
     this.setState({
       selectedFilter: filter,
-      books: filter === 'All'? books : books.filter( book => (book.category === filter) )
+      books: filter === 'All' ? books : books.filter(book => (book.category === filter))
     })
   }
 
-  render () {
-    const { books, selectedFilter } = this.state
-
+  render() {
     return (
       <section id="books">
         <div className="container">
           <div className="row">
-              <div className="col-lg-12 text-center">
-                  <h2>Books</h2>
-                  <hr className="star-primary" />
-              </div>
+            <div className="col-lg-12 text-center">
+              <h2>Books</h2>
+              <hr className="star-primary" />
+            </div>
           </div>
           <div className="row">
             <div className="col-lg-12">
-                <BookFilter selectedFilter={selectedFilter} selectFilter={this.selectFilter}/>
+              <BookFilter selectedFilter={this.state.selectedFilter} selectFilter={this.selectFilter} />
             </div>
           </div>
-          <BookList books={books}/>
+          <BookList books={this.state.books} />
         </div>
       </section>
     )

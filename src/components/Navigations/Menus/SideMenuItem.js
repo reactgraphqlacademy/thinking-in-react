@@ -1,9 +1,9 @@
 import React from 'react'
 
-const SideMenuItem = ({ children, link }) => (
+const SideMenuItem = (props) => (
   <p>
-    <a href={ link } target="_blank" rel="noopener noreferrer" style={{ cursor: 'pointer' }}>
-      { children }
+    <a href={props.link} target="_blank" rel="noopener noreferrer" style={{ cursor: 'pointer' }}>
+      {props.children}
     </a>
   </p>
 )

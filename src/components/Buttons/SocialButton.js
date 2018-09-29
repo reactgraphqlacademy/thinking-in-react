@@ -1,12 +1,12 @@
 import React from 'react'
 
-const SocialButton = ({ to, icon, target = "_blank" }) => (
+const SocialButton = (props) => (
   <a
-    target={target}
-    href={to}
+    target={props.target || "_blank"}
+    href={props.to}
     className="btn-social btn-outline"
   >
-    <i className={`fa fa-fw fa-${icon}`}></i>
+    <i className={`fa fa-fw fa-${props.icon}`}></i>
   </a>
 )
 
