@@ -26,13 +26,13 @@ Before you start, there are two types of components [Functional Components and C
 
 ### Tasks
 
-1- Refactor the “about” and “footer” sections by creating a stateless component for each. Make sure everything works.
+1- Refactor the “about” and “footer” sections by creating a functional component for each. Make sure everything works.
 
 
-2- Refactor the navbar by creating a stateless component and pass the dependencies via props. Make sure everything works.
+2- Refactor the navbar by creating a Functional Component (AKA stateless components) and pass the dependencies via props. Make sure everything works.
 
 
-3- Refactor the books section by creating a stateless component and pass the dependencies via props. Make sure everything works.
+3- Refactor the books section by creating a functional component and pass the dependencies via props. Make sure everything works.
 
 
 4- Is there any state in app that should be in the Books component?  Refactor &lt;Books&gt; books if appropriate. Should &lt;Books&gt; be a Functional Component or a Class Component now?
