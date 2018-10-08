@@ -22,7 +22,7 @@ https://learn.freecodecamp.org/front-end-libraries/react/) before.
 
 ## Exercise
 
-Before you start, there are two types of components [Functional Components and Class Components](https://reactjs.org/docs/components-and-props.html#functional-and-class-components).  Try to use a Functional component if the component doesn't have state, you'll need to refactor code a few times during the next exercise :)
+Before you start, there are two types of components [Functional Components and Class Components](https://reactjs.org/docs/components-and-props.html#function-and-class-components).  Try to use a Functional component if the component doesn't have state, you'll need to refactor code a few times during the next exercise :)
 
 ### Tasks
 
