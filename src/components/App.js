@@ -1,23 +1,23 @@
-import React from 'react'
+import React from "react";
 
-import Menu from './Navigations/Menu'
-import Navbar from './Navigations/Navbar'
-import Header from './Header'
-import Footer from './Footer'
-import About from './About'
-import Books from './Books'
+import Menu from "./Navigations/Menu";
+import Navbar from "./Navigations/Navbar";
+import Header from "./Header";
+import Footer from "./Footer";
+import About from "./About";
+import Books from "./Books";
 
 class App extends React.Component {
   constructor() {
-    super()
+    super();
     this.state = {
       menu: { open: false }
-    }
+    };
   }
 
   toggleMenu = () => {
-    this.setState({ menu: { open: !this.state.menu.open } })
-  }
+    this.setState(state => ({ menu: { open: !state.menu.open } }));
+  };
 
   render() {
     return (
@@ -33,8 +33,8 @@ class App extends React.Component {
         <About />
         <Footer />
       </div>
-    )
+    );
   }
 }
 
-export default App
+export default App;
