@@ -22,14 +22,14 @@ https://learn.freecodecamp.org/front-end-libraries/react/) before.
 
 ## Exercise
 
-Before you start, there are two types of components [Functional Components and Class Components](https://reactjs.org/docs/components-and-props.html#functional-and-class-components).  Try to use a Functional component if the component doesn't have state, you'll need to refactor code a few times during the next exercise :)
+Before you start, there are two types of components [Functional Components and Class Components](https://reactjs.org/docs/components-and-props.html#function-and-class-components).  Try to use a Functional component if the component doesn't have state, you'll need to refactor code a few times during the next exercise :)
 
 ### Tasks
 
 1- Refactor the “about” and “footer” sections by creating a functional component for each. Make sure everything works.
 
 
-2- Refactor the navbar by creating a Functional Component (AKA stateless components) and pass the dependencies via props. Make sure everything works.
+2- Refactor the navbar by creating a Functional Component (AKA stateless components) and pass the dependencies (this.toggleMenu in this case) via props. Make sure everything works by clicking on the "Training" button at the top right of the screen.
 
 
 3- Refactor the books section by creating a functional component and pass the dependencies via props. Make sure everything works.
@@ -43,7 +43,7 @@ Before you start, there are two types of components [Functional Components and C
 
 6- What do you think it would make sense to componentize next? Are there any parts on that view that you can reuse? Try to explain to a mentor what you want to refactor before you code :)
 
-### Links
+## Articles and links
 
 * [https://medium.com/leanjs/introduction-to-react-3000e9cbcd26](https://medium.com/leanjs/introduction-to-react-3000e9cbcd26)
 * Basic React course from [freeCodeCamp](
