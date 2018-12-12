@@ -7,69 +7,48 @@ import Footer from './Footer'
 import About from './About'
 import Books from './Books'
 
-function App2() {
-  const [state, setState] = useState({ 
-    text: "",
-    checked: false
-  })
-  const mergeState = partialState => 
-    setState(prevState => ({
-      ...prevState,
-      ...partialState
-    }))
-  const handleCheckBoxToggle = e => mergeState({checked: !state.checked})
-  const handleTextChange = e => mergeState({text: e.target.value})
-  return(
-   <React.Fragment>
-      <input 
-        type="text" 
-        value={state.text} 
-        onChange={handleTextChange} 
-      />
-       <input 
-        type="checkbox" 
-        checked={state.checked} 
-        onChange={handleCheckBoxToggle} 
-      />
-      <ul>
-        <li>{state.text}</li>
-        <li>{state.checked.toString()}</li>
-      </ul>
-   </React.Fragment>
+// function App2() {
+//   const [text, setText] = useState("")
+//   const [checked, setChecked] = useState(false)
+  
+//   const handleCheckBoxToggle = e => setChecked(preChecked => !preChecked)
+//   const handleTextChange = e => setText(e.target.value)
+//   return(
+//    <React.Fragment>
+//       <input 
+//         type="text" 
+//         value={text} 
+//         onChange={handleTextChange} 
+//       />
+//        <input 
+//         type="checkbox" 
+//         checked={checked} 
+//         onChange={handleCheckBoxToggle} 
+//       />
+//    </React.Fragment>
     
-  )
-}
+//   )
+// }
 
-class App extends React.Component {
-  constructor () {
-    super()
-    this.state = {
-      menu: { open : false }
-    }
-  }
-
-  toggleMenu = () => {
-    this.setState({ menu : { open: !this.state.menu.open } })
-  }
-
-  render() {
-    const { menu } = this.state
+function App() {
+ const [toggleStatus, setToggle] = useState(false)
+ const toggleMenu = () => setToggle(prevToggleStatus => !prevToggleStatus)
 
     return (
       <div id="page-wrap">
         <Menu
           pageWrapId="page-wrap"
-          isOpen={ menu.open }
-          toggleMenu={ this.toggleMenu }
+          isOpen={ toggleStatus }
+          toggleMenu={ toggleMenu }
         />
-        <Navbar toggleMenu={this.toggleMenu} />
+        <Navbar toggleMenu={toggleMenu} />
         <Header title="Library" />
         <Books />
         <About />
         <Footer />
       </div>
     )
-  }
+  
 }
 
-export default App2
+export default App
