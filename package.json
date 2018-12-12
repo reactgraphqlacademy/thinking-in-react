@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.2.0",
+    "react": "^16.7.0-alpha.2",
     "react-burger-menu": "^2.2.3",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.7.0-alpha.2"
   },
   "devDependencies": {
     "react-scripts": "^1.1.0"
