@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import Menu from './Navigations/Menu'
 import Navbar from './Navigations/Navbar'
@@ -6,6 +6,20 @@ import Header from './Header'
 import Footer from './Footer'
 import About from './About'
 import Books from './Books'
+
+function App2() {
+  const state = useState("")
+  console.log(state)
+  const text = state[0];
+  const setText = state[1]
+  return(
+    <input 
+      type="text" 
+      value={text} 
+      onChange={e => setText(e.target.value)} 
+    />
+  )
+}
 
 class App extends React.Component {
   constructor () {
@@ -39,4 +53,4 @@ class App extends React.Component {
   }
 }
 
-export default App
+export default App2
