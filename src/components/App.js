@@ -10,8 +10,7 @@ import Books from './Books'
 function App2() {
   const state = useState("")
   console.log(state)
-  const text = state[0];
-  const setText = state[1]
+  const [text, setText] = state
   return(
     <input 
       type="text" 
