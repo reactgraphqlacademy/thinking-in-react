@@ -8,15 +8,22 @@ import About from './About'
 import Books from './Books'
 
 function App2() {
-  const state = useState("")
-  console.log(state)
-  const [text, setText] = state
+  const [text, setText] = useState("")
+  const [checked, setChecked] = useState(false)
   return(
-    <input 
-      type="text" 
-      value={text} 
-      onChange={e => setText(e.target.value)} 
-    />
+   <React.Fragment>
+      <input 
+        type="text" 
+        value={text} 
+        onChange={e => setText(e.target.value)} 
+      />
+       <input 
+        type="checkbox" 
+        checked={checked} 
+        onChange={e => setChecked(!checked)} 
+      />
+   </React.Fragment>
+    
   )
 }
 
