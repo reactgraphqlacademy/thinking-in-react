@@ -9,7 +9,7 @@ const Header = (props) => (
                   <div className="intro-text">
                       <span className="name">{props.title}</span>
                       <hr className="star-light" />
-                      <span className="skills">Upgrade your web development skills</span>
+                      <span className="skills">Upgrade your web development skills v{React.version}</span>
                   </div>
               </div>
           </div>
