@@ -8,20 +8,24 @@ import About from './About'
 import Books from './Books'
 
 function App2() {
-  const [text, setText] = useState("")
-  const [checked, setChecked] = useState(false)
-  const handleCheckBoxToggle = e => setChecked(preChecked => !preChecked)
-  const handleTextChange = e => setText(e.target.value)
+  const [state, setState] = useState({ 
+    text: "",
+    checked: false
+  })
+  const handleCheckBoxToggle = e => setState(prevChecked => ({
+    checked: !prevChecked
+  }))
+  const handleTextChange = e => setState({text: e.target.value})
   return(
    <React.Fragment>
       <input 
         type="text" 
-        value={text} 
+        value={state.text} 
         onChange={handleTextChange} 
       />
        <input 
         type="checkbox" 
-        checked={checked} 
+        checked={state.checked} 
         onChange={handleCheckBoxToggle} 
       />
    </React.Fragment>
