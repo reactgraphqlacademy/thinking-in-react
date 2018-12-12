@@ -10,17 +10,19 @@ import Books from './Books'
 function App2() {
   const [text, setText] = useState("")
   const [checked, setChecked] = useState(false)
+  const handleCheckBoxToggle = e => setChecked(!checked)
+  const handleTextChange = e => setText(e.target.value)
   return(
    <React.Fragment>
       <input 
         type="text" 
         value={text} 
-        onChange={e => setText(e.target.value)} 
+        onChange={handleTextChange} 
       />
        <input 
         type="checkbox" 
         checked={checked} 
-        onChange={e => setChecked(!checked)} 
+        onChange={handleCheckBoxToggle} 
       />
    </React.Fragment>
     
