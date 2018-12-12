@@ -4,7 +4,6 @@ import BookList from './BookList'
 import BookFilter from './BookFilter'
 
 function Books() {
-  
   const [state, setState] = useState({
     books,
     selectedFilter: 'All',
@@ -22,8 +21,6 @@ function Books() {
       books: filter === 'All' ? books : books.filter(book => (book.category === filter))
     })
   }
-
-    
 
     return (
       <section id="books">
@@ -43,9 +40,6 @@ function Books() {
         </div>
       </section>
     )
-
 }
-
-
 
 export default Books

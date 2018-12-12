@@ -7,29 +7,6 @@ import Footer from './Footer'
 import About from './About'
 import Books from './Books'
 
-// function App2() {
-//   const [text, setText] = useState("")
-//   const [checked, setChecked] = useState(false)
-  
-//   const handleCheckBoxToggle = e => setChecked(preChecked => !preChecked)
-//   const handleTextChange = e => setText(e.target.value)
-//   return(
-//    <React.Fragment>
-//       <input 
-//         type="text" 
-//         value={text} 
-//         onChange={handleTextChange} 
-//       />
-//        <input 
-//         type="checkbox" 
-//         checked={checked} 
-//         onChange={handleCheckBoxToggle} 
-//       />
-//    </React.Fragment>
-    
-//   )
-// }
-
 function App() {
  const [toggleStatus, setToggle] = useState(false)
  const toggleMenu = () => setToggle(prevToggleStatus => !prevToggleStatus)
@@ -48,7 +25,6 @@ function App() {
         <Footer />
       </div>
     )
-  
 }
 
 export default App
