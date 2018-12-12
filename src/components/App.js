@@ -12,10 +12,13 @@ function App2() {
     text: "",
     checked: false
   })
-  const handleCheckBoxToggle = e => setState(prevChecked => ({
-    checked: !prevChecked
-  }))
-  const handleTextChange = e => setState({text: e.target.value})
+  const mergeState = partialState => 
+    setState(prevState => ({
+      ...prevState,
+      ...partialState
+    }))
+  const handleCheckBoxToggle = e => mergeState({checked: !state.checked})
+  const handleTextChange = e => mergeState({text: e.target.value})
   return(
    <React.Fragment>
       <input 
@@ -28,6 +31,10 @@ function App2() {
         checked={state.checked} 
         onChange={handleCheckBoxToggle} 
       />
+      <ul>
+        <li>{state.text}</li>
+        <li>{state.checked.toString()}</li>
+      </ul>
    </React.Fragment>
     
   )
