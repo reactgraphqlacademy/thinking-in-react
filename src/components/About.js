@@ -18,7 +18,7 @@ const About = () => (
             </strong>
             . This web site will help you understand the fundamental piece of
             ReactJS, components. You'll learn how to break an app in components
-            (AKA componentization) and flow data accross them.
+            and flow data accross them.
           </p>
         </div>
         <div className="col-lg-4">
