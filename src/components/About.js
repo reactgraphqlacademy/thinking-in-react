@@ -13,9 +13,11 @@ const About = () => (
         <div className="col-lg-4 col-lg-offset-2">
           <p>
             ReactJS is a library for building UI in a{" "}
-            <strong style={{ textDecoration: "underline" }}>
-              declarative way
-            </strong>
+            <a href="https://reactjs.academy/blog/introduction-to-thinking-in-react/">
+              <strong style={{ textDecoration: "underline" }}>
+                declarative way
+              </strong>
+            </a>
             . This web site will help you understand the fundamental piece of
             ReactJS, components. You'll learn how to break an app in components
             and flow data accross them.
