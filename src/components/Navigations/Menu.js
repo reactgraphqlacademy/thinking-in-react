@@ -1,21 +1,32 @@
-import React from 'react'
+import React from "react";
 
-import SideMenu from './Menus/SideMenu'
-import SideMenuItem from './Menus/SideMenuItem'
+import SideMenu from "./Menus/SideMenu";
+import SideMenuItem from "./Menus/SideMenuItem";
 
-const Menu = (props) => (
-  <SideMenu
-    isOpen={props.isOpen}
-    toggleMenu={props.toggleMenu}
-  >
+const Menu = props => (
+  <SideMenu isOpen={props.isOpen} toggleMenu={props.toggleMenu}>
     <h4>
-      Next Courses <a onClick={() => props.toggleMenu()} style={{ cursor: 'pointer' }}><i className="fa fa-close pull-right"></i></a>
+      Training{" "}
+      <a onClick={() => props.toggleMenu()} style={{ cursor: "pointer" }}>
+        <i className="fa fa-close pull-right" />
+      </a>
     </h4>
-    <SideMenuItem link="https://leanjs.com/training/react-redux-graphql-london">London</SideMenuItem>
-    <SideMenuItem link="https://leanjs.com/training/react-redux-graphql-london#redux-training-day">Redux Day</SideMenuItem>
-    <SideMenuItem link="https://leanjs.com/training/react-redux-graphql-london#advanced-react-training-day">Advanced React</SideMenuItem>
-    <SideMenuItem>GraphQL (comming soon)</SideMenuItem>
+    <SideMenuItem link="https://reactjs.academy/react-redux-graphql-bootcamp/">
+      Bootcamp
+    </SideMenuItem>
+    <SideMenuItem link="https://reactjs.academy/corporate-team-training/">
+      On-site corporate
+    </SideMenuItem>
+    <SideMenuItem link="https://reactjs.academy/react-redux-graphql-part-time-course/">
+      Part-time
+    </SideMenuItem>
+    <SideMenuItem link="https://reactjs.academy/advanced-react-redux-graphql-bootcamp/">
+      Advanced React
+    </SideMenuItem>
+    <SideMenuItem link="https://reactjs.academy/react-native-bootcamp/">
+      React Native
+    </SideMenuItem>
   </SideMenu>
-)
+);
 
-export default Menu
+export default Menu;

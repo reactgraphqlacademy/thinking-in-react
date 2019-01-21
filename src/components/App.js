@@ -28,7 +28,7 @@ class App extends React.Component {
           toggleMenu={this.toggleMenu}
         />
         <Navbar toggleMenu={this.toggleMenu} />
-        <Header title="Library" />
+        <Header title="ReactJS Academy" />
         <Books />
         <About />
         <Footer />
