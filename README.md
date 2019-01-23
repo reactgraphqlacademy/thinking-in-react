@@ -45,7 +45,7 @@ Before you start, there are two types of components [Functional Components and C
 
 ## Articles and links
 
-* [https://medium.com/leanjs/introduction-to-react-3000e9cbcd26](https://medium.com/leanjs/introduction-to-react-3000e9cbcd26)
+* [https://reactjs.academy/blog/introduction-to-thinking-in-react/](https://reactjs.academy/blog/introduction-to-thinking-in-react/)
 * Basic React course from [freeCodeCamp](
 https://learn.freecodecamp.org/front-end-libraries/react/)
 * [https://reactjs.org/docs/introducing-jsx.html](https://reactjs.org/docs/introducing-jsx.html)
