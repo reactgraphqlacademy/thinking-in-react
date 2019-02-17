@@ -11,16 +11,19 @@ You need to be comfortable writing JavaScript and HTML to do this exercise. The 
 - [Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 - [Array.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) and [Array.filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 
-You need to have `node`and `npm`installed in your computer.
+You need to have `node` and `npm` installed on your computer.
 
 ### If you find this exercise too difficult
 
 If you find the exercise too difficult we recommend you to do the following basic React course from [freeCodeCamp](https://learn.freecodecamp.org/front-end-libraries/react/) before.
 
-## Getting started:
+## Getting started
 
-```
-git clone git@github.com:leanjscom/thinking-in-react.git && cd thinking-in-react && npm install && npm start
+```console
+git clone git@github.com:reactjsacademy/thinking-in-react.git
+cd thinking-in-react
+npm install
+npm start
 ```
 
 ## Exercise
@@ -29,20 +32,31 @@ Before you start, there are two types of components [Functional Components and C
 
 ### Tasks
 
-- [ ] 1. Refactor the “about” and “footer” sections by creating a functional component for each. Make sure everything works.
-- [ ] 2. Refactor the navbar by creating a Functional Component (AKA stateless components) and pass the dependencies (`this.toggleMenu` in this case) via props. Make sure everything works by clicking on the "Training" button at the top right of the screen.
-- [ ] 3. Refactor the books section by creating a functional component and pass the dependencies via props. Make sure everything works.
-- [ ] 4. Is there any state in app that should be in the Books component? Refactor `<Books>` if appropriate. Should `<Books>` be a Functional Component or a Class Component now?
-- [ ] 5. Break `<Books>` down into `<BookList>` and <BookFilter>`
-- [ ] 6. What do you think it would make sense to componentize next? Are there any parts on that view that you can reuse? Try to explain to a mentor what you want to refactor before you code 😁
+- [ ] 1. Refactor the “about” and “footer” sections by creating a functional component for each.
+      Make sure everything works.
+
+- [ ] 2. Refactor the navbar by creating a Functional Component (AKA stateless components).
+      Pass the dependencies (`this.toggleMenu` in this case) via props.
+      Make sure everything works by clicking on the "Training" button at the top right of the screen.
+
+- [ ] 3. Refactor the books section by creating a functional component and pass the dependencies via props.
+      Make sure everything works.
+
+- [ ] 4. Is there any state in app that should be in the Books component?
+      Refactor `<Books>` if appropriate. Should `<Books>` be a Functional Component or a Class Component now?
+
+- [ ] 5. Break `<Books>` down into `<BookList>` and `<BookFilter>`
+
+- [ ] 6. What do you think it would make sense to componentize next?
+      Are there any parts on that view that you can reuse? Try to explain to a mentor what you want to refactor before you code 😁
 
 ## Articles and links
 
-- [https://reactjs.academy/blog/introduction-to-thinking-in-react/](https://reactjs.academy/blog/introduction-to-thinking-in-react/)
+
+- [Introduction to Thinking in React](https://reactjs.academy/blog/introduction-to-thinking-in-react/)
+- [A Beginner’s Guide to React](https://medium.com/leanjs/introduction-to-react-3000e9cbcd26)
+- [Introduction to JSX](https://reactjs.org/docs/introducing-jsx.html)
 - Basic React course from [freeCodeCamp](https://learn.freecodecamp.org/front-end-libraries/react/)
-- [https://reactjs.org/docs/introducing-jsx.html](https://reactjs.org/docs/introducing-jsx.html)
-- [https://reactjs.org/docs/thinking-in-react.html](https://reactjs.org/docs/thinking-in-react.html)
-- [babel repl example](https://babeljs.io/repl/#?babili=false&browsers=&build=&builtIns=false&code_lz=MYewdgzgLgBAEgUwDZJAYRAWwA7gWWAXhgAoBKGQgPlICgYYAeAEwEsA3K-hpgCwEYqiFCACEjAPQCuPJtioB1ZKEwIYUEEwCGMXgCcEAM0IAiXlCjYIALgkSDW4FABWEAHSOtzBJgCeJqgAlBEcoACkAZTcAQWAvH19JLSpJeW5JNk5aMgBuWloWDhhgJC0ICAA5LVVTUAItVjAEPQD0zOLS8qqakz0QAHdW2QBvYVQMHDwCAF90iUyuDI4qIA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=true&fileSize=false&lineWrap=false&presets=es2015%2Creact%2Cstage-2&prettier=false&targets=&version=6.26.0&envVersion=)
 
 ## License
 
