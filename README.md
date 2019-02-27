@@ -28,7 +28,23 @@ npm start
 
 ## Exercise
 
-Before you start, there are two types of components [Functional Components and Class Components](https://reactjs.org/docs/components-and-props.html#function-and-class-components). Try to use a Functional component if the component doesn't have state, you'll need to refactor code a few times during the next exercise 😁
+Before you start, there are two types of components [Functional Components and Class Components](https://reactjs.org/docs/components-and-props.html#function-and-class-components).
+
+```javascript
+function Welcome(props) {
+  return <h1>Hello, {props.name}</h1>;
+}
+```
+
+```javascript
+class Welcome extends React.Component {
+  render() {
+    return <h1>Hello, {this.props.name}</h1>;
+  }
+}
+```
+
+Try to use a Functional component if the component doesn't have state, you'll need to refactor code a few times during the next exercise 😁
 
 ### Tasks
 
