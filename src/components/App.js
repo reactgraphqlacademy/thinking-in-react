@@ -31,7 +31,7 @@ class App extends React.Component {
   }
 
   render() {
-    const filters = ['All', 'Web', 'Mobile', 'DevOps', 'Essentials']
+    const filters = ['All', 'Design', 'Mobile', 'DevOps', 'Essentials']
 
     const tabItems = filters.map(filter => (
       <li

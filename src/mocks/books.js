@@ -3,9 +3,9 @@ const images = '/img/books'
 const books = [
   {
     id: 1,
-    title: 'Learning React',
-    cover: `${images}/learning-react.jpg`,
-    category: 'Web'
+    title: 'Design real life',
+    cover: `${images}/design-real-life.jpg`,
+    category: 'Design'
   },
   {
     id: 2,
@@ -15,9 +15,9 @@ const books = [
   },
   {
     id: 3,
-    title: 'React Up and Running',
-    cover: `${images}/react-up.jpg`,
-    category: 'Web'
+    title: 'Design SVG',
+    cover: `${images}/design-svg.jpg`,
+    category: 'Design'
   },
   {
     id: 4,
@@ -63,27 +63,27 @@ const books = [
   },
   {
     id: 12,
-    title: 'Learning Angular JS',
-    cover: `${images}/learning-angularjs.jpg`,
-    category: 'Web'
+    title: 'Getting started React Native',
+    cover: `${images}/get-start-react-native.jpg`,
+    category: 'Mobile'
   },
   {
     id: 13,
-    title: 'Angular JS',
-    cover: `${images}/angularjs.jpg`,
-    category: 'Web'
+    title: 'The new CSS layout',
+    cover: `${images}/design-layout.jpg`,
+    category: 'Design'
   },
   {
     id: 14,
-    title: 'Angular JS 2',
-    cover: `${images}/angular2-ninja.jpg`,
-    category: 'Web'
+    title: 'Design conversation',
+    cover: `${images}/design-conversation.jpg`,
+    category: 'Design'
   },
   {
     id: 15,
-    title: 'Getting Better in JavaScript',
-    cover: `${images}/javascript.jpg`,
-    category: 'Outdated'
+    title: 'Fullstack React Native',
+    cover: `${images}/fullstack-react-native.jpg`,
+    category: 'Mobile'
   },
   {
     id: 16,
@@ -117,9 +117,9 @@ const books = [
   },
   {
     id: 21,
-    title: 'Getting started React Native',
-    cover: `${images}/get-start-react-native.jpg`,
-    category: 'Mobile'
+    title: 'JavaScript for designer',
+    cover: `${images}/design-javascript.jpg`,
+    category: 'Design'
   }
 ]
 
