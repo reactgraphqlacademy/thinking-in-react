@@ -6,21 +6,27 @@ import SideMenuItem from './Menus/SideMenuItem'
 const Menu = props => (
   <SideMenu isOpen={props.isOpen} toggleMenu={props.toggleMenu}>
     <h4>
-      Next Courses{' '}
-      <a onClick={() => props.toggleMenu()} style={{ cursor: 'pointer' }}>
+      Next Courses
+      <button
+        className="btn-link"
+        onClick={() => props.toggleMenu()}
+        style={{ cursor: 'pointer' }}
+      >
         <i className="fa fa-close pull-right" />
-      </a>
+      </button>
     </h4>
-    <SideMenuItem link="https://reactjs.academy/react-redux-training-london/">
-      London part-time course
+    <SideMenuItem link="https://reactjs.academy/react-redux-graphql-bootcamp/">
+      Bootcamp
     </SideMenuItem>
-    <SideMenuItem link="https://reactjs.academy/react-redux-graphql-bootcamp-london/">
-      London Bootcamp
+    <SideMenuItem link="https://reactjs.academy/react-redux-graphql-part-time-course/">
+      Part-time
     </SideMenuItem>
-    <SideMenuItem link="https://reactjs.academy/react-redux-graphql-bootcamp-lisbon/">
-      Lisbon Bootcamp
+    <SideMenuItem link="https://reactjs.academy/advanced-react-redux-graphql-bootcamp/">
+      Advanced React
     </SideMenuItem>
-    <SideMenuItem>GraphQL (comming soon)</SideMenuItem>
+    <SideMenuItem link="https://reactjs.academy/react-native-bootcamp/">
+      React Native
+    </SideMenuItem>
   </SideMenu>
 )
 

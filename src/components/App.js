@@ -54,7 +54,9 @@ class App extends React.Component {
         <nav className="navbar navbar-default navbar-fixed-top navbar-custom">
           <div className="container">
             <div className="navbar-header">
-              <a className="navbar-brand">ReactJS Academy</a>
+              <a className="navbar-brand" href="/">
+                ReactJS Academy
+              </a>
             </div>
             <ul className="nav navbar-nav pull-right">
               <li className="hidden-xs">
