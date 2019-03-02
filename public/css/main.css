@@ -498,3 +498,8 @@ fieldset[disabled] .btn-success.active {
 .bm-burger-button {
   display: none;
 }
+
+.btn-link {
+  color: #B8B7AD;
+  display: inline-block;
+}

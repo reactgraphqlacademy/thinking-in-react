@@ -1,7 +1,7 @@
 import React from 'react'
 import * as BurgerMenu from 'react-burger-menu'
 
-const SideMenu = (props) => (
+const SideMenu = props => (
   <div>
     <BurgerMenu.slide
       isOpen={props.isOpen}

@@ -1,47 +1,47 @@
-import React from "react";
+import React from 'react'
 
-import Menu from "./Navigations/Menu";
-import Header from "./Header";
-import books from "../mocks/books";
+import Menu from './Navigations/Menu'
+import Header from './Header'
+import books from '../mocks/books'
 
 class App extends React.Component {
   constructor() {
-    super();
+    super()
     this.state = {
       books: books,
-      selectedFilter: "All",
+      selectedFilter: 'All',
       menu: { open: false }
-    };
+    }
   }
 
   toggleMenu = () => {
     this.setState(state => ({
       menu: { open: !state.menu.open }
-    }));
-  };
+    }))
+  }
 
   selectFilter = filter => {
     this.setState({
       selectedFilter: filter,
       books:
-        filter === "All"
+        filter === 'All'
           ? books
           : books.filter(book => book.category === filter)
-    });
-  };
+    })
+  }
 
   render() {
-    const filters = ["All", "Web", "Mobile", "DevOps", "Essentials"];
+    const filters = ['All', 'Design', 'Mobile', 'DevOps', 'Essentials']
 
     const tabItems = filters.map(filter => (
       <li
-        className={filter === this.state.selectedFilter ? "active" : ""}
+        className={filter === this.state.selectedFilter ? 'active' : ''}
         key={filter}
         onClick={() => this.selectFilter(filter)}
       >
         <a href="#0">{filter}</a>
       </li>
-    ));
+    ))
 
     return (
       <div id="page-wrap">
@@ -54,7 +54,9 @@ class App extends React.Component {
         <nav className="navbar navbar-default navbar-fixed-top navbar-custom">
           <div className="container">
             <div className="navbar-header">
-              <a className="navbar-brand">ReactJS Academy</a>
+              <a className="navbar-brand" href="/">
+                ReactJS Academy
+              </a>
             </div>
             <ul className="nav navbar-nav pull-right">
               <li className="hidden-xs">
@@ -110,8 +112,8 @@ class App extends React.Component {
             <div className="row">
               <div className="col-lg-4 col-lg-offset-2">
                 <p>
-                  This library is an exercise for building UI in a{" "}
-                  <strong style={{ textDecoration: "underline" }}>
+                  This library is an exercise for building UI in a{' '}
+                  <strong style={{ textDecoration: 'underline' }}>
                     declarative way
                   </strong>
                   . This web site will help you understand the fundamental piece
@@ -205,7 +207,7 @@ class App extends React.Component {
             <div className="container">
               <div className="row">
                 <div className="col-lg-12">
-                  <span>Copyright &copy;</span>{" "}
+                  <span>Copyright &copy;</span>{' '}
                   <a
                     href="https://leanjs.com/"
                     target="_blank"
@@ -219,8 +221,8 @@ class App extends React.Component {
           </div>
         </footer>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
