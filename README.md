@@ -73,6 +73,8 @@ Try to use a Functional component if the component doesn't have state, you'll ne
 - [A Beginner’s Guide to React](https://medium.com/leanjs/introduction-to-react-3000e9cbcd26)
 - [Introduction to JSX](https://reactjs.org/docs/introducing-jsx.html)
 - Basic React course from [freeCodeCamp](https://learn.freecodecamp.org/front-end-libraries/react/)
+- [https://reactjs.org/docs/lifting-state-up.html](https://reactjs.org/docs/lifting-state-up.html)
+- [https://reactjs.org/docs/thinking-in-react.html](https://reactjs.org/docs/thinking-in-react.html)
 
 ## License
 
