@@ -51,7 +51,7 @@ Try to use a Functional component if the component doesn't have state, you'll ne
 - [ ] 1. Refactor the “about” and “footer” sections by creating a functional component for each.
       Make sure everything works.
 
-- [ ] 2. Refactor the navbar by creating a Functional Component (AKA stateless components).
+- [ ] 2. Refactor the navbar by creating a Functional Component.
       Pass the dependencies (`this.toggleMenu` in this case) via props.
       Make sure everything works by clicking on the "Training" button at the top right of the screen.
 
