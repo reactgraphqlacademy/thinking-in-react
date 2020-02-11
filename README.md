@@ -20,7 +20,7 @@ If you find the exercise too difficult we recommend you to do the following basi
 ## Getting started
 
 ```console
-git clone git@github.com:reactjsacademy/thinking-in-react.git
+git clone https://github.com/reactgraphqlacademy/thinking-in-react
 cd thinking-in-react
 npm install
 npm start
