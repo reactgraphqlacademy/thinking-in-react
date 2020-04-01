@@ -28,7 +28,7 @@ npm start
 
 ## Exercise
 
-Before you start, there are two types of components [Functional Components and Class Components](https://reactjs.org/docs/components-and-props.html#function-and-class-components).
+Before you start, there are two types of components [Function Components and Class Components](https://reactjs.org/docs/components-and-props.html#function-and-class-components).
 
 ```javascript
 function Welcome(props) {
@@ -44,22 +44,22 @@ class Welcome extends React.Component {
 }
 ```
 
-Try to use a Functional component if the component doesn't have state, you'll need to refactor code a few times during the next exercise 😁
+Try to use a Function component if the component doesn't have state, you'll need to refactor code a few times during the next exercise 😁
 
 ### Tasks
 
-- [ ] 1. Refactor the “about” and “footer” sections by creating a functional component for each.
+- [ ] 1. Refactor the “about” and “footer” sections by creating a function component for each.
       Make sure everything works.
 
-- [ ] 2. Refactor the navbar by creating a Functional Component.
+- [ ] 2. Refactor the navbar by creating a Function Component.
       Pass the dependencies (`this.toggleMenu` in this case) via props.
       Make sure everything works by clicking on the "Training" button at the top right of the screen.
 
-- [ ] 3. Refactor the books section by creating a functional component and pass the dependencies via props.
+- [ ] 3. Refactor the books section by creating a function component and pass the dependencies via props.
       Make sure everything works.
 
 - [ ] 4. Is there any state in app that should be in the Books component?
-      Refactor `<Books>` if appropriate. Should `<Books>` be a Functional Component or a Class Component now?
+      Refactor `<Books>` if appropriate. Should `<Books>` be a Function Component or a Class Component now?
 
 - [ ] 5. Break `<Books>` down into `<BookList>` and `<BookFilter>`
 
