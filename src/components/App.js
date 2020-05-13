@@ -55,7 +55,7 @@ class App extends React.Component {
           <div className="container">
             <div className="navbar-header">
               <a className="navbar-brand" href="/">
-                ReactJS Academy
+                Library
               </a>
             </div>
             <ul className="nav navbar-nav pull-right">
@@ -74,7 +74,7 @@ class App extends React.Component {
           </div>
         </nav>
 
-        <Header title="ReactJS Academy" />
+        <Header title="By React GraphQL Academy" />
 
         <section id="books">
           <div className="container">
