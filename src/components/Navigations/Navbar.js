@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../Button'
 
 function Navbar(props) {
   return (
@@ -14,12 +15,9 @@ function Navbar(props) {
             <a href="#about">About us</a>
           </li>
           <li>
-            <button
-              onClick={props.toggleMenu}
-              className="btn btn-lg btn-outline"
-            >
+            <Button onClick={props.toggleMenu}>
               <i className="fa fa-graduation-cap" /> <span>Training</span>
-            </button>
+            </Button>
           </li>
         </ul>
       </div>

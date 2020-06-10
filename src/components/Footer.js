@@ -50,12 +50,13 @@ function Footer() {
               </ul>
             </div>
             <div className="footer-col col-md-4">
-              <h3>About ReactJS Academy</h3>
+              <h3>About React GraphQL Academy</h3>
               <p>
-                <a href="https://reactjs.academy/">ReactJS Academy</a>
+                <a href="https://reactjs.academy/">React GraphQL Academy</a>
+                {` `}
                 <span>
-                  ReactJS Academy is Europes longest running dedicated React,
-                  Redux, and GraphQL training.
+                  is Europes longest running dedicated React, Redux, and GraphQL
+                  training.
                 </span>
               </p>
             </div>
@@ -67,13 +68,7 @@ function Footer() {
           <div className="row">
             <div className="col-lg-12">
               <span>Copyright &copy;</span>{' '}
-              <a
-                href="https://leanjs.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                LeanJS
-              </a>
+              <a to="https://leanjs.com/">LeanJS</a>
             </div>
           </div>
         </div>

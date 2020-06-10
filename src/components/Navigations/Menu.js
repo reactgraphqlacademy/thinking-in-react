@@ -2,19 +2,16 @@ import React from 'react'
 
 import SideMenu from './Menus/SideMenu'
 import SideMenuItem from './Menus/SideMenuItem'
+import Button from '../Button'
 
-const Menu = props => (
+const Menu = (props) => (
   <SideMenu isOpen={props.isOpen} toggleMenu={props.toggleMenu}>
-    <h4>
-      Next Courses
-      <button
-        className="btn-link"
-        onClick={() => props.toggleMenu()}
-        style={{ cursor: 'pointer' }}
-      >
-        <i className="fa fa-close pull-right" />
-      </button>
-    </h4>
+    <div style={{ position: 'absolute', right: '10px' }}>
+      <Button onClick={() => props.toggleMenu()}>
+        <i className="fa fa-close" />
+      </Button>
+    </div>
+    <h4>Next Courses</h4>
     <SideMenuItem link="https://reactjs.academy/react-redux-graphql-bootcamp/">
       Bootcamp
     </SideMenuItem>
