@@ -80,7 +80,7 @@ The goal of this exercise is to understand what's state and how to reason about 
 - [ ] 5. Break `<Books>` down into `<BookList>` and `<BookFilter>`
 
 ## 🏋️‍♀️ Bonus exercise
-- Abstract the `button` component that is inside the `Navbar` component and `Menu` component into a `Button` component. Do we know ahead of time who are the children of the `Button` component? Try to use the prop called `children` for the elements displayed inside the button.
+- Abstract the `button` component that is inside the `Navbar` component and the `Menu` component into its own `Button` component. Do we know ahead of time who are the children of the `Button` component? Try to use the prop called `children` for the elements displayed inside the button.
 - Can we move the `isMenuOpen` state inside the menu? Does it conflict with the idea of "lifting the state up".
 - If you look at the [React Profiler](https://reactjs.org/blog/2018/09/10/introducing-the-react-profiler.html) when you open and close the menu, is the whole app being rendered? If so, how can we avoid that and still lift the state up?
 
