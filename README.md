@@ -92,7 +92,7 @@ The goal of this exercise is to understand what's state and how to reason about 
 - Basic React course from [freeCodeCamp](https://learn.freecodecamp.org/front-end-libraries/react/)
 - [https://reactjs.org/docs/lifting-state-up.html](https://reactjs.org/docs/lifting-state-up.html)
 - [https://reactjs.org/docs/thinking-in-react.html](https://reactjs.org/docs/thinking-in-react.html)
-- [babel repl example](https://babeljs.io/repl#?babili=false&browsers=&build=&builtIns=false&spec=false&loose=false&code_lz=JYWwDg9gTgLgBAJQKYEMDG8BmUIjgIilQ3wCg0IA7AZ3gAkkAbRiAYV0kqUvgF44AFAEo4vAHwEAFsHwBuUqQA8AE2AA3OGkYpq1AHIoQSXvgo8UwLlHxjScOCvWbtug0ZM4A7jbv24AbwZmNg4qbhgAX19FAHpVNVtY-LEgA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=true&fileSize=false&timeTravel=false&sourceType=module&lineWrap=false&presets=es2015,es2016,es2017,react,stage-2&prettier=false&targets=&version=7.3.3)
+- [babel repl example](https://babeljs.io/repl#?browsers=&build=&builtIns=false&spec=false&loose=false&code_lz=JYWwDg9gTgLgBAJQKYEMDG8BmUIjgIilQ3wChS0IA7AZ3gAkkAbJiAYV0iqSvgF44ACgCUcPgD4CAC2D4A3OQA8AE2AA3OGiYoaNAHIoQSPvkq8UwblHzjScOCvWbtug0ZM4A7jbv2HjFnZOah54AHpbe0Uw1TVbaNjxIA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=true&fileSize=false&timeTravel=false&sourceType=module&lineWrap=false&presets=es2015%2Ces2016%2Ces2017%2Creact%2Cstage-2&prettier=false&targets=&version=7.3.3&externalPlugins=)
 
 
 ## License
