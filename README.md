@@ -49,25 +49,24 @@ Try to use a Functional component if the component doesn't have state, you'll ne
 ### Tasks
 
 - [ ] 1. Refactor the “about” and “footer” sections by creating a functional component for each.
-      Make sure everything works.
+     Make sure everything works.
 
 - [ ] 2. Refactor the navbar by creating a Functional Component.
-      Pass the dependencies (`this.toggleMenu` in this case) via props.
-      Make sure everything works by clicking on the "Training" button at the top right of the screen.
+     Pass the dependencies (`this.toggleMenu` in this case) via props.
+     Make sure everything works by clicking on the "Training" button at the top right of the screen.
 
 - [ ] 3. Refactor the books section by creating a functional component and pass the dependencies via props.
-      Make sure everything works.
+     Make sure everything works.
 
 - [ ] 4. Is there any state in app that should be in the Books component?
-      Refactor `<Books>` if appropriate. Should `<Books>` be a Functional Component or a Class Component now?
+     Refactor `<Books>` if appropriate. Should `<Books>` be a Functional Component or a Class Component now?
 
 - [ ] 5. Break `<Books>` down into `<BookList>` and `<BookFilter>`
 
 - [ ] 6. What do you think it would make sense to componentize next?
-      Are there any parts on that view that you can reuse? Try to explain to a mentor what you want to refactor before you code 😁
+     Are there any parts on that view that you can reuse? Try to explain to a mentor what you want to refactor before you code 😁
 
 ## Articles and links
-
 
 - [Lecture: Introduction to Thinking in React](https://reactgraphql.academy/react/introduction-to-thinking-in-react/)
 - [A Beginner’s Guide to React](https://medium.com/leanjs/introduction-to-react-3000e9cbcd26)
@@ -75,8 +74,7 @@ Try to use a Functional component if the component doesn't have state, you'll ne
 - Basic React course from [freeCodeCamp](https://learn.freecodecamp.org/front-end-libraries/react/)
 - [https://reactjs.org/docs/lifting-state-up.html](https://reactjs.org/docs/lifting-state-up.html)
 - [https://reactjs.org/docs/thinking-in-react.html](https://reactjs.org/docs/thinking-in-react.html)
-- [babel repl example](https://babeljs.io/repl#?babili=false&browsers=&build=&builtIns=false&spec=false&loose=false&code_lz=JYWwDg9gTgLgBAJQKYEMDG8BmUIjgIilQ3wCg0IA7AZ3gAkkAbRiAYV0kqUvgF44AFAEo4vAHwEAFsHwBuUqQA8AE2AA3OGkYpq1AHIoQSXvgo8UwLlHxjScOCvWbtug0ZM4A7jbv24AbwZmNg4qbhgAX19FAHpVNVtY-LEgA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=true&fileSize=false&timeTravel=false&sourceType=module&lineWrap=false&presets=es2015,es2016,es2017,react,stage-2&prettier=false&targets=&version=7.3.3)
-
+- [babel repl example](https://babeljs.io/repl#?browsers=&build=&builtIns=false&spec=false&loose=false&code_lz=JYWwDg9gTgLgBAJQKYEMDG8BmUIjgIilQ3wChS0IA7AZ3gAkkAbJiAYV0iqSvgF44ACgCUcPgD4CAC2D4A3OQA8AE2AA3OGiYoaNAHIoQSPvkq8UwblHzjScOCvWbtug0ZM4A7jbv2HjFnZOah54AHpbe0Uw1TVbaNjxIA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=true&fileSize=false&timeTravel=false&sourceType=module&lineWrap=false&presets=es2015%2Ces2016%2Ces2017%2Creact%2Cstage-2&prettier=false&targets=&version=7.3.3&externalPlugins=)
 
 ## License
 
