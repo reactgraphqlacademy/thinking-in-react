@@ -81,7 +81,7 @@ The goal of this exercise is to understand what's state and how to reason about 
 
 ## 🏋️‍♀️ Bonus exercise
 
-- What do you think it would make sense to componentize next? Are there any parts on that view that you can reuse? Hint, replace the `<a>` with your `<Link>` component. Who are the children of the `Link` component? The `Link` component should receive a prop called `to` that becomes the href of the `<a href={to} ...`. Try to use the prop called `children` for the text displayed inside the anchor.
+- Abstract the `button` component that is inside the `Navbar` component and `Menu` component into a `Button` component. Do we know ahead of time who are the children of the `Button` component? Try to use the prop called `children` for the elements displayed inside the button.
 - Can we move the `isMenuOpen` state inside the menu? Does it conflict with the idea of "lifting the state up".
 - If you look at the [React Profiler](https://reactjs.org/blog/2018/09/10/introducing-the-react-profiler.html) when you open and close the menu, is the whole app being rendered? If so, how can we avoid that and still lift the state up?
 
@@ -93,7 +93,7 @@ The goal of this exercise is to understand what's state and how to reason about 
 - Basic React course from [freeCodeCamp](https://learn.freecodecamp.org/front-end-libraries/react/)
 - [https://reactjs.org/docs/lifting-state-up.html](https://reactjs.org/docs/lifting-state-up.html)
 - [https://reactjs.org/docs/thinking-in-react.html](https://reactjs.org/docs/thinking-in-react.html)
-- [babel repl example](https://babeljs.io/repl#?babili=false&browsers=&build=&builtIns=false&spec=false&loose=false&code_lz=JYWwDg9gTgLgBAJQKYEMDG8B UIjgIilQ3wCg0IA7AZ3gAkkAbRiAYV0kqUvgF44AFAEo4vAHwEAFsHwBuUqQA8AE2AA3OGkYpq1AHIoQSXvgo8UwLlHxjScOCvWbtug0ZM4A7jbv24AbwZmNg4qbhgAX19FAHpVNVtY-LEgA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=true&fileSize=false&timeTravel=false&sourceType=module&lineWrap=false&presets=es2015,es2016,es2017,react,stage-2&prettier=false&targets=&version=7.3.3)
+- [babel repl example](https://babeljs.io/repl#?babili=false&browsers=&build=&builtIns=false&spec=false&loose=false&code_lz=JYWwDg9gTgLgBAJQKYEMDG8BUIjgIilQ3wCg0IA7AZ3gAkkAbRiAYV0kqUvgF44AFAEo4vAHwEAFsHwBuUqQA8AE2AA3OGkYpq1AHIoQSXvgo8UwLlHxjScOCvWbtug0ZM4A7jbv24AbwZmNg4qbhgAX19FAHpVNVtY-LEgA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=true&fileSize=false&timeTravel=false&sourceType=module&lineWrap=false&presets=es2015,es2016,es2017,react,stage-2&prettier=false&targets=&version=7.3.3)
 
 
 ## License

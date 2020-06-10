@@ -3,29 +3,25 @@ import React from 'react'
 import SideMenu from './Menus/SideMenu'
 import SideMenuItem from './Menus/SideMenuItem'
 
-const Menu = props => (
+const Menu = (props) => (
   <SideMenu isOpen={props.isOpen} toggleMenu={props.toggleMenu}>
-    <h4>
-      Next Courses
+    <div style={{ position: 'absolute', right: '10px' }}>
       <button
-        className="btn-link"
         onClick={() => props.toggleMenu()}
-        style={{ cursor: 'pointer' }}
+        className="btn btn-lg btn-outline"
       >
-        <i className="fa fa-close pull-right" />
+        <i className="fa fa-close" />
       </button>
-    </h4>
-    <SideMenuItem link="https://reactjs.academy/react-redux-graphql-bootcamp/">
-      Bootcamp
+    </div>
+    <h4>Next Courses</h4>
+    <SideMenuItem link="https://reactgraphql.academy/react/training/bootcamp/">
+      React Bootcamp
     </SideMenuItem>
-    <SideMenuItem link="https://reactjs.academy/react-redux-graphql-part-time-course/">
-      Part-time
-    </SideMenuItem>
-    <SideMenuItem link="https://reactjs.academy/advanced-react-redux-graphql-bootcamp/">
+    <SideMenuItem link="https://reactgraphql.academy/react/training/advanced/">
       Advanced React
     </SideMenuItem>
-    <SideMenuItem link="https://reactjs.academy/react-native-bootcamp/">
-      React Native
+    <SideMenuItem link="https://reactgraphql.academy/react/training/fundamentals/">
+      React Fundamentals
     </SideMenuItem>
   </SideMenu>
 )

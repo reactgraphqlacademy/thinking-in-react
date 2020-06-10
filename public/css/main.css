@@ -297,7 +297,6 @@ footer .footer-below {
   border: solid 2px white;
   background: transparent;
   transition: all 0.3s ease-in-out;
-  margin-top: 15px;
 }
 .btn-outline:hover,
 .btn-outline:focus,
