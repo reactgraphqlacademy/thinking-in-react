@@ -1,27 +1,15 @@
 import React, { useState } from 'react'
 
-import Menu from './Navigations/Menu'
-import Navbar from './Navigations/Navbar'
 import Header from './Header'
 import Books from './Books'
 import Footer from './Footer'
 import About from './About'
+import NavMenu from './Navigations/NavMenu'
 
 function App() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen)
-  }
-
   return (
     <div id="page-wrap">
-      <Menu
-        pageWrapId="page-wrap"
-        isOpen={isMenuOpen}
-        toggleMenu={toggleMenu}
-      />
-      <Navbar toggleMenu={toggleMenu} />
+      <NavMenu />
       <Header title="By React GraphQL Academy" />
       <Books />
       <About />
