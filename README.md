@@ -1,9 +1,9 @@
-## React Fundamentals / Thinking in React
+# React Fundamentals / Thinking in React
 
-The learning objectives of this exercise are:
-- Understand the difference between declarative and imperative programming
-- Learn how to breaking down your UI into components
-- Comprehend what's state, which components should hold it, and when to lift it up.
+## Learning objectives
+- Differentiate between declarative and imperative programming
+- Identify what's state and which components should hold it
+- Determine when to lift the state up
 
 ## Teaching method
 
