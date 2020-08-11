@@ -15,6 +15,8 @@
 3. We don’t explain everything you need to know before the exercise:
    - Learn by doing (and teaching ;)
    - The exercise is meant to help you build a mental model
+   
+More about our [teaching method here](https://reactgraphql.academy/blog/react-graphql-academy-teaching-method/).
 
 ## Prerequisites
 
