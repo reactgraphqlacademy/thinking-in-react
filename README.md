@@ -7,12 +7,9 @@
 
 ## Teaching method
 
-1. Collaborative learning environment & pair programming.
-   - Rooms with small groups
-   - Work together, discuss, help each other.
-2. We try to foster critical thinking.
+1. We try to foster critical thinking.
    - ⬆️ Discovery ⬇️ Instruction
-3. We don’t explain everything you need to know before the exercise:
+2. We don’t explain everything you need to know before the exercise:
    - Learn by doing (and teaching ;)
    - The exercise is meant to help you build a mental model
    
@@ -37,8 +34,8 @@ If you find the exercise too difficult we recommend you to do the following basi
 ```console
 git clone https://github.com/reactgraphqlacademy/thinking-in-react
 cd thinking-in-react
-npm install
-npm start
+yarn
+yarn start
 ```
 
 ## 🥑 Before we start the exercise
