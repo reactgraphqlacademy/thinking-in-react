@@ -29,15 +29,6 @@ You need to have `node` and `npm` installed on your computer.
 
 If you find the exercise too difficult we recommend you to do the following basic React course from [freeCodeCamp](https://learn.freecodecamp.org/front-end-libraries/react/) before.
 
-## Getting started
-
-```console
-git clone https://github.com/reactgraphqlacademy/thinking-in-react
-cd thinking-in-react
-yarn
-yarn start
-```
-
 ## 🥑 Before we start the exercise
 
 Before you start, we are going to use the [useState hook](https://reactjs.org/docs/hooks-state.html) in this exercise. 
@@ -60,6 +51,15 @@ function Example() {
 ```
 
 The goal of this exercise is to understand what's state and how to reason about it. The goal of this exercise is not to learn how the useState hook works. How we store the state is an implementation detail. The principles you'll learn in this exercise can be applied to classes & this.setState, hooks, and some other state management libraries. 
+
+## Getting started
+
+```console
+git clone https://github.com/reactgraphqlacademy/thinking-in-react
+cd thinking-in-react
+yarn
+yarn start
+```
 
 ## 🤸‍♀️ Exercise
 
