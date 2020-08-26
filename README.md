@@ -75,7 +75,7 @@ yarn start
 - [ ] 4. Is there any state in App.js that should be in the `<Books>` component?
       Refactor `<Books>` if appropriate. 
 
-- [ ] 5. Break `<Books>` down into two smaller components: `<BookList>` and `<BookFilter>`. `<BookList>` will be responsible for displaying the books. `<BookFilter>` will be responsible for filterind the books. Is there any state in `<Books>`  that should be moved into `<BookList>` or `<BookFilter>`?
+- [ ] 5. Break `<Books>` down into two smaller components: `<BookList>` and `<BookFilter>`. `<BookList>` will be responsible for displaying the books. `<BookFilter>` will be responsible for filtering the books. Is there any state in `<Books>`  that should be moved into `<BookList>` or `<BookFilter>`?
 
 ## 🏋️‍♀️ Bonus exercise
 
