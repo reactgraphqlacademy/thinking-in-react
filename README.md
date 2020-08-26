@@ -70,7 +70,7 @@ yarn start
       Pass the dependencies (`toggleMenu` in this case) via props.
       Make sure everything works by clicking on the "Training" button at the top right of the screen. Hint, you can look at the `src/components/Header.js` as an example (heads up, use curly brackets to pass a prop as a function)
 
-- [ ] 3. Refactor the books section by creating a function component and pass the dependencies via props.
+- [ ] 3. Refactor the books section by creating a function component called Books. Pass the state from App to Books via via props.
       Make sure everything works.
 
 - [ ] 4. Is there any state in app that should be in the Books component?
