@@ -3,7 +3,7 @@
 ## Learning objectives
 - Differentiate between declarative and imperative programming
 - Identify what's state and which components should hold it
-- Determine when to lift the state up
+- Determine when to lift state up
 
 ## Teaching method
 
@@ -79,7 +79,7 @@ yarn start
 
 ## 🏋️‍♀️ Bonus exercise
 
-- Can we move the `isMenuOpen` state inside the menu? Does it conflict with the idea of "lifting the state up".
+- Can we move the `isMenuOpen` state inside the menu? Does it conflict with the idea of "lifting state up".
 - If you look at the [React Profiler](https://reactjs.org/blog/2018/09/10/introducing-the-react-profiler.html) when you open and close the menu, is the whole app being rendered? If so, how can we avoid that and still lift the state up?
 
 ## Articles and links
