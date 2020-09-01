@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import Menu from './Menu'
 import Navbar from './Navbar'
 
-function NavMenu() {
+export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const toggleMenu = () => {
@@ -21,4 +21,4 @@ function NavMenu() {
   )
 }
 
-export default NavMenu
+
